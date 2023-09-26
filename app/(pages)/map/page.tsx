@@ -1,5 +1,5 @@
 "use client"
-import { getLocationByAddress } from "@/app/services/map";
+import { getLocationByAddress } from "@/app/services/api";
 import Link from "next/link";
 import React, { useEffect } from "react";
 
