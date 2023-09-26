@@ -22,6 +22,7 @@ export default function useMapLoader() {
     return () => {
       map?.destroy();
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [map]);
   return { map };
 }
